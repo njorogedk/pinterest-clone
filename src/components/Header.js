@@ -28,7 +28,7 @@ function Header() {
                         <SearchIcon />
                     </IconButton>
                     <form>
-                        <input type="text" />
+                        <input type="text" onChange={(e) => console.log(e.target.value)}/>
                         <button type="submit" ></button>
                     </form>
                </SearchBarWrapper>
